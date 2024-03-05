@@ -1,6 +1,8 @@
 <?php
 if(isset($_POST['submit'])){
-
+  
+// ata array ake ta function.
+  
   $total = count($_FILES ['file']['name']);
 
 for($x=0;$x<$total;$x++){
